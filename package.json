@@ -1,0 +1,21 @@
+{
+  "name": "typescript-seed",
+  "version": "1.0.0",
+  "description": "Seed minimal node TS package",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Barnett",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@tsconfig/node22": "^22.0.0",
+    "eslint": "^9.20.1",
+    "ts-node": "github:TypeStrong/ts-node#main",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.0"
+  }
+}
